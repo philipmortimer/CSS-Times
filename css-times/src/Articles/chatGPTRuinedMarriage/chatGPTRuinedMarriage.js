@@ -65,15 +65,11 @@ const paragraphs = [para1, para2, para3, para4, para5];
 // End of paragraphs
 
 // Start of comments ***********************************
-const comment1 = new ArticleComment("philip", "Nice article!");
+const comment1 = new ArticleComment("Iwan Sutton", "This happened to me too!");
 
-const comment2 = new ArticleComment("Jezza", "Bad Article");
+const comment2 = new ArticleComment("Jeremy", "I wish i had a wife :(");
 
-const comment3 = new ArticleComment("Jason", "Mid Article");
-
-const comment4 = new ArticleComment("leelee", "Just right Article");
-
-const comments = [];//comment1, comment2, comment3, comment4];
+const comments = [comment1, comment2];
 
 // End of comments
 
