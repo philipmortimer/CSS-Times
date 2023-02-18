@@ -8,7 +8,10 @@ import React from 'react';
 export const Home = (props) => {
     return (
         <div className="homepage">
-            <Top />
+
+    
+     
+            
             <div className="articles-container">
                 {getThumbnails(articles)}
             </div>

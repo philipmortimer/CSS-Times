@@ -8,10 +8,13 @@ import {
 import {Home} from "./Pages/Home/Home.js";
 import {articles} from './Articles/ArticleList';
 import { ArticleViewer } from './Articles/ArticleViewer/ArticleViewer';
+import { Top } from './Pages/Home/Top.js'
 
 function App() {
   return (
     <>
+            <Top />
+
       <Router className="router">
         <Routes>  
           <Route path="/" element={<Home />} />
