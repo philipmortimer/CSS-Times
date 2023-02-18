@@ -2,6 +2,12 @@ import {Picture} from '../Picture';
 import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
+/*
+********************************
+   DISUSED - JUSE AN EXAMPLE
+********************************
+*/
+
 
 // Variables used to create object
 const headline = "David Bernhard: Why we need 4 factor authentication.";
