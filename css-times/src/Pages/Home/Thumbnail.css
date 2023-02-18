@@ -16,9 +16,16 @@
     display: block;
     width: 100%;
     aspect-ratio: 16/9;
+    margin-bottom: 0.7em;
 } 
 
 .thumbnail-text{
     padding:0%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
-
+.thumbnail-text > *{
+    margin: 0;
+    outline: 0px solid purple;
+}
