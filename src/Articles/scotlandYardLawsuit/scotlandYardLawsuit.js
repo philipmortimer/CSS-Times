@@ -3,6 +3,9 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Photo imports
+import mainPhotoPath from "./Images/scotlandYardLawsuit.jpg";
+
 // Variables used to create object
 const headline = "BREAKING: Student Wins Lawsuit Against OpenAI's ChatGPT";
 
@@ -13,7 +16,7 @@ const publishDate = new Date("February 19 2023 11:00");
 const summaryForHomePage =  "Bristol, UK: In a shocking turn of events, a computer science student from the University" +
     " of Bristol has won a major lawsuit against OpenAI, the creators of the AI language model ChatGPT."
 
-const mainPhoto = new Picture("/Images/Articles/scotlandYardLawsuit/scotlandYardLawsuit.jpg",
+const mainPhoto = new Picture(mainPhotoPath,
   'Bristol University student versus OpenAi');
 
 // Paragraphs *********************************************************************************

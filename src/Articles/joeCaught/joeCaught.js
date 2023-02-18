@@ -3,6 +3,9 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Photo imports
+import mainPhotoPath from "./Images/josephHalletCaughtWindows.jpg";
+
 // Variables used to create object
 const headline = "BREAKING: University of Bristol Lecturer Caught Red-Handed Using a Windows Machine!";
 
@@ -13,7 +16,7 @@ const publishDate = new Date("February 18 2023 18:40");
 const summaryForHomePage =  "Joeseph Hallett caught using Windows 11 in a savage assult on open-source values." +
     " Friday after before last, multiple reports were made by students of this upsetting incident."
 
-const mainPhoto = new Picture('/Images/Articles/joeCaught/josephHalletCaughtWindows.jpg',
+const mainPhoto = new Picture(mainPhotoPath,
   'A sorry looking Joeseph Hallett after being caught using Widnows 11.');
 
 // Paragraphs *********************************************************************************
