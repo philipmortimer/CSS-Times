@@ -13,7 +13,7 @@ const publishDate = new Date("February 19 2023 11:00");
 const summaryForHomePage =  "Bristol, UK: In a shocking turn of events, a computer science student from the University" +
     "of Bristol has won a major lawsuit against OpenAI, the creators of the AI language model ChatGPT."
 
-const mainPhoto = new Picture('/Images/Articles/scotlandYardLawsuit/scotlandYardLawsuit.jpg',
+const mainPhoto = new Picture('/CSS-Times/Images/Articles/scotlandYardLawsuit/scotlandYardLawsuit.jpg',
   'Bristol University student versus OpenAi');
 
 // Paragraphs *********************************************************************************

@@ -5,7 +5,7 @@ export const Thumbnail = (props) => {
     const myArticle = props.article
     return(
         <div className="thumbnail">
-            <a className="articleLink" href={"/articles/" + props.article.id}>
+            <a className="articleLink" href={"/CSS-Times/articles/" + props.article.id}>
                 <img className="thumbnail-image" src={myArticle.mainPhoto.filePath} alt="really funny image" />
                 <div className="thumbnail-text">
                     <p className="thumbnail-headline"><strong>{myArticle.headline}</strong></p>

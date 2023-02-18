@@ -17,7 +17,7 @@ function App() {
 
       <Router className="router">
         <Routes>  
-          <Route path="/" element={<Home />} />
+          <Route path="/CSS-Times" element={<Home />} />
           {getArticlePaths(articles)}
         </Routes>
       </Router>
@@ -33,7 +33,7 @@ function App() {
     for (let i = 0; i < articleList.length; i++) {
       paths.push(
       <React.Fragment key={articleList[i].id}>
-        <Route path={"/articles/" + articleList[i].id} 
+        <Route path={"/CSS-Times/articles/" + articleList[i].id} 
         element={<ArticleViewer article={articleList[i]} />} /> 
       </React.Fragment>
       );
