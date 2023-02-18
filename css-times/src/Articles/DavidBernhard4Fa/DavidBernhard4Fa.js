@@ -13,7 +13,7 @@ const publishDate = new Date("February 18 2023 10:30");
 const summaryForHomePage =  "The letter says officers are accused of sharing derogatory images" + 
  "of the celebrity's disabled son.";
 
-const mainPhoto = new Picture('./Images/Articles/DavidBernhard4Fa/KatiePriceImageMain.jpg',
+const mainPhoto = new Picture('/Images/Articles/DavidBernhard4Fa/KatiePriceImageMain.jpg',
   'Twenty-year-old Harvey has Prader-Willi syndrome, which can cause learning difficulties');
 
 // Paragraphs *********************************************************************************
@@ -102,8 +102,6 @@ const comments = [comment1, comment2, comment3, comment4];
 /**
  * The newspaper article for david.
  */
-console.log("heya");
 export const davidArticle = new Article(
   headline, author, publishDate, summaryForHomePage, mainPhoto, paragraphs, comments, Article.NO_ID__YET
 );
-console.log("heyb");
