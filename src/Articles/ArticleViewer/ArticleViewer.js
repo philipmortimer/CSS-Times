@@ -1,5 +1,5 @@
 import {Paragraph} from '../Paragraph';
-import React from 'react';
+import React, {useState} from 'react';
 import Moment from 'react-moment';
 import { CommentSection } from './CommentSection/CommentSection';
 import './ArticleViewer.css'
@@ -7,11 +7,13 @@ import { Disclaimer } from '../../Pages/Home/Disclaimer/Disclaimer';
 // Component takes an article data object and displays it as a component.
 // props.article should be an article object.
 export const ArticleViewer = (props) => {
+    const [_, setMainImageLoaded] = useState(false);
+    const [imagesLoaded, setImagesLoaded] = useState(0);
     return (
         <div className="articleWrapper">
             <div className="disclaimer"><Disclaimer /></div>
             <h1 className="headline">{props.article.headline}</h1>
-            <img src={props.article.mainPhoto.filePath} 
+            <img onLoad={() => {setMainImageLoaded(true)}} src={props.article.mainPhoto.filePath} 
                 alt={props.article.mainPhoto.caption}
                 className="mainPhoto"/>
             <h4 className="author">By {props.article.author}</h4>
@@ -45,8 +47,8 @@ export const ArticleViewer = (props) => {
             if (paraList[i].photo !== Paragraph.NO_PHOTO) {
                 para.push(        
                     <React.Fragment key={1}>
-                        <img src={paraList[i].photo.filePath} 
-                        alt={paraList[i].photo.caption}
+                        <img onLoad={() => setImagesLoaded(imagesLoaded + 1)}
+                        src={paraList[i].photo.filePath} alt={paraList[i].photo.caption}
                         className="articlePhoto"/>
                     </React.Fragment>
                     );
