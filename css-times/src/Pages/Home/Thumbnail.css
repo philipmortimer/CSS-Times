@@ -7,8 +7,17 @@
     grid-template-rows: 9fr 7fr;
 }
 
+.articleLink {
+    text-decoration: none;
+    color: black;
+}
+
 .thumbnail  *{
     padding:0px;
+}
+
+.thumbnail:hover{
+    transform: scale(1.05);
 }
 
 .thumbnail-image{
