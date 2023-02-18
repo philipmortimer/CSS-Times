@@ -14,9 +14,16 @@
     max-width: 100vw;
 }
 
-@media  only screen and (min-width:0px) and (max-width:800px) {
+@media  only screen and (min-width:551px) and (max-width:800px) {
     .articles-container{
         grid-template-columns: 1fr 1fr;
+        width:80vw
+    }
+}
+
+@media  only screen and (min-width:0px) and (max-width:550px) {
+    .articles-container{
+        grid-template-columns: 1fr;
         width:80vw
     }
 }
