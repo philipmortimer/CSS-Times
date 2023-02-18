@@ -3,6 +3,10 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Photo imports
+import mainPhotoPath from "./Images/4factauth.jpg";
+import photo1 from "./Images/hacker.jpg";
+
 // Variables used to create object
 const headline = "David Bernhard: Why Bristol Needs Four-Factor Authentication";
 
@@ -13,7 +17,7 @@ const publishDate = new Date("February 18 2023 10:30");
 const summaryForHomePage =  "With an ever increasing threat to our digital live's, Bristol University professor David Bernhard " +
     "talks on the necessitiy of four-factor authentication.";
 
-const mainPhoto = new Picture("/Images/Articles/DB4Fact/4factauth.jpg",
+const mainPhoto = new Picture(mainPhotoPath,
   'David Bernhard giving a talk on the importance of 4-factor authentication');
 
 // Paragraphs *********************************************************************************
@@ -40,7 +44,7 @@ const para3 = new Paragraph(
     When asked to explain his reasoning, Bernhard replied, "Look, I know two-factor is a hassle. But think about it this way 
     – would you rather be slightly inconvenienced now or have your entire life ruined by a hacker later? The answer is obvious."
   </p>,
-  new Picture('/Images/Articles/DB4Fact/hacker.jpg', 
+  new Picture(photo1, 
   'A scary hacker stealing all of your details!'),
   Paragraph.NO_HEADING
 );
