@@ -8,7 +8,7 @@ export class Paragraph {
     /**
      * Used to indicate no heading is present
      */
-    static NO_HEADING = "";
+    static NO_HEADING = null;
     /**
      * Creates a paragraph object with the text and corresponding photo.
      * @param {*} text The text as JSX style thing with p tags etc.

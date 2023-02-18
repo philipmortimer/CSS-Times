@@ -104,6 +104,6 @@ const comments = [comment1, comment2, comment3, comment4];
  */
 console.log("heya");
 export const davidArticle = new Article(
-  headline, author, publishDate, summaryForHomePage, mainPhoto, paragraphs, comments
+  headline, author, publishDate, summaryForHomePage, mainPhoto, paragraphs, comments, Article.NO_ID__YET
 );
 console.log("heyb");
