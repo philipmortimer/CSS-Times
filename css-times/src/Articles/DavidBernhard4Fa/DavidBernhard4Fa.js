@@ -43,7 +43,7 @@ const para4 = new Paragraph(
   <p>
     The revelation of the letter by Price comes 18 months after she called for eight officers 
     under investigation for allegedly sharing inappropriate material about Harvey on WhatsApp to
-     be <a href = "https://www.bbc.co.uk/news/uk-england-london-58009788">named and shamed"</a>. 
+     be <a href = "https://www.bbc.co.uk/news/uk-england-london-58009788">"named and shamed"</a>. 
      She added: "I don't like the police being horrible to Harvey."
   </p>,
   Paragraph.NO_PHOTO, Paragraph.NO_HEADING)
