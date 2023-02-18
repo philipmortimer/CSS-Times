@@ -12,8 +12,8 @@ export const Home = (props) => {
         <div className="articles-container">
 
             <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>
-            <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>
-            <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>
+            <Thumbnail className="article-thumbnail" article={articles[1]}></Thumbnail>
+            <Thumbnail className="article-thumbnail" article={articles[1]}></Thumbnail>
             <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>
             <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>
             <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>

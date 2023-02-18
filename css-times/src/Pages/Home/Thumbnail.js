@@ -1,4 +1,5 @@
-import './Thumbnail.css'
+import './Thumbnail.css';
+import Moment from 'react-moment';
 
 function prettyDate(date){
     var str = `${date.getDay()}/${date.getMonth()}/${date.getYear()}`
@@ -15,7 +16,10 @@ export const Thumbnail = (props) => {
             <div className="thumbnail-text">
                 <p className="thumbnail-headline"><strong>{myArticle.headline}</strong></p>
                 <p className="thumbnail-descr">{myArticle.summaryForHomePage}</p>
-                <p className="thumbnail-date">{prettyDate( myArticle.publishDate)}</p>
+                <Moment className="thumbnail-date" locale='uk' format='LL'
+                filter={(str) => str.replace(',', ' ')}>
+                    {props.article.publishDate}
+            </Moment>
             </div>
 
         </div>
