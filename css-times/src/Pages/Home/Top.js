@@ -5,7 +5,7 @@ import logo from './cssTimesLogoBlack.png'
 export const Top = (props) => {
     return (
         <header>
-        <img className="Css-times-logo" src={logo} alt="" />
+        <a href="/"><img className="Css-times-logo" src={logo} alt="" /></a>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">Sport</a></li>
