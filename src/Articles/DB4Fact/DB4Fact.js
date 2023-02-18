@@ -13,7 +13,7 @@ const publishDate = new Date("February 18 2023 10:30");
 const summaryForHomePage =  "With an ever increasing threat to our digital live's, Bristol University professor David Bernhard " +
     "talks on the necessitiy of four-factor authentication.";
 
-const mainPhoto = new Picture('/Images/Articles/DB4Fact/4factauth.jpg',
+const mainPhoto = new Picture("/Images/Articles/DB4Fact/4factauth.jpg",
   'David Bernhard giving a talk on the importance of 4-factor authentication');
 
 // Paragraphs *********************************************************************************

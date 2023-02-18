@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import {Home} from "./Pages/Home/Home.js";
 import {articles} from './Articles/ArticleList';
@@ -14,13 +15,12 @@ function App() {
   return (
     <>
       <Top />
-
-      <Router className="router">
+      <HashRouter>
         <Routes>  
           <Route path="/" element={<Home />} />
           {getArticlePaths(articles)}
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 

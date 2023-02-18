@@ -19,7 +19,7 @@ const publishDate = new Date("February 18 2023 10:30");
 const summaryForHomePage =  "The letter says officers are accused of sharing derogatory images" + 
  "of the celebrity's disabled son.";
 
-const mainPhoto = new Picture('/Images/Articles/DavidBernhard4Fa/KatiePriceImageMain.jpg',
+const mainPhoto = new Picture("/Images/Articles/DavidBernhard4Fa/KatiePriceImageMain.jpg",
   'Twenty-year-old Harvey has Prader-Willi syndrome, which can cause learning difficulties');
 
 // Paragraphs *********************************************************************************
@@ -58,7 +58,7 @@ const para5 = new Paragraph(
   <p>
     paragph with picture and heading
   </p>,
-  new Picture('/Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
+  new Picture("/Images/Articles/DavidBernhard4Fa/katepriceinsta.png", 
   'Price said the the officers facing allegations of misconduct need to be "named, shamed and exposed"'),
   'Heading'
 );
@@ -67,7 +67,7 @@ const para6 = new Paragraph(
   <p>
     paragph with picture no heading
   </p>,
-  new Picture('/Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
+  new Picture("/Images/Articles/DavidBernhard4Fa/katepriceinsta.png", 
   'Price said the the officers facing allegations of misconduct need to be "named, shamed and exposed"'),
   Paragraph.NO_HEADING
 );
