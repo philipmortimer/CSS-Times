@@ -3,12 +3,13 @@ import React from 'react';
 import Moment from 'react-moment';
 import { CommentSection } from './CommentSection/CommentSection';
 import './ArticleViewer.css'
-import {Top} from '../../Pages/Home/Top'
+import { Disclaimer } from '../../Pages/Home/Disclaimer/Disclaimer';
 // Component takes an article data object and displays it as a component.
 // props.article should be an article object.
 export const ArticleViewer = (props) => {
     return (
         <div className="articleWrapper">
+            <div className="disclaimer"><Disclaimer /></div>
             <h1 className="headline">{props.article.headline}</h1>
             <img src={props.article.mainPhoto.filePath} 
                 alt={props.article.mainPhoto.caption}

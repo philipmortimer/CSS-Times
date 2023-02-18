@@ -2,7 +2,6 @@ import { Disclaimer } from "./Disclaimer/Disclaimer";
 import './Home.css'
 import {articles} from "../../Articles/ArticleList"
 import { Thumbnail } from "./Thumbnail";
-import { Top } from "./Top.js"
 import React from 'react';
 
 export const Home = (props) => {
@@ -11,9 +10,7 @@ export const Home = (props) => {
             <div className="articles-container">
                 {getThumbnails(articles)}
             </div>
-            <div className="disclaimer-container">
-                    <Disclaimer/>
-            </div>
+            <div className="disclaimer"><Disclaimer /></div>
         </div>
 
     );

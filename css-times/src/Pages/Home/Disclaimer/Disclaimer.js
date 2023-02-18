@@ -4,11 +4,11 @@ import './Disclaimer.css';
 
 
 export const Disclaimer = (props) => {
-    const [visible, setVisibility] = useState(true);
+    const [visitibility, setVisibility] = useState("byCookieValue");
     return (
-        <CookieConsent visible={visible? "show" : "hidden"} onAccept={() => setVisibility(false)}
-        enableDeclineButton={true} buttonText="I understand" declineButtonText="I understand"
-        onDecline={() => setVisibility(false)}>
+        <CookieConsent visible={visitibility} onAccept={() => setVisibility("hidden")}
+        enableDeclineButton={"hidden"} buttonText="I understand" declineButtonText="I understand"
+        onDecline={() => setVisibility("hidden")}>
             Everything on here is true, except for the parts that aren't.
             <em className="LawsuitAvoidance">Please don't sue us.</em>
         </CookieConsent>
