@@ -52,7 +52,7 @@ const para5 = new Paragraph(
   <p>
     paragph with picture and heading
   </p>,
-  new Picture('./Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
+  new Picture('/Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
   'Price said the the officers facing allegations of misconduct need to be "named, shamed and exposed"'),
   'Heading'
 );
@@ -61,7 +61,7 @@ const para6 = new Paragraph(
   <p>
     paragph with picture no heading
   </p>,
-  new Picture('./Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
+  new Picture('/Images/Articles/DavidBernhard4Fa/katepriceinsta.png', 
   'Price said the the officers facing allegations of misconduct need to be "named, shamed and exposed"'),
   Paragraph.NO_HEADING
 );
