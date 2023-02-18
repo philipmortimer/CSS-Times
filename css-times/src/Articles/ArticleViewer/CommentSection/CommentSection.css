@@ -1,0 +1,7 @@
+.comment {
+    display: flex;
+}
+
+.commentAuthor {
+    font-weight: bold;
+}
