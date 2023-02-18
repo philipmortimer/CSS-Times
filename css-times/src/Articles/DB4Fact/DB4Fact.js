@@ -4,7 +4,7 @@ import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
 // Variables used to create object
-const headline = "David Bernhard: Why we need 4 factor authentication";
+const headline = "David Bernhard: Why Bristol needs 4 factor authentication";
 
 const author = "Ron Hentze";
 
@@ -79,15 +79,13 @@ const paragraphs = [para1, para2, para3, para4, para5, para6, para7];
 // End of paragraphs
 
 // Start of comments ***********************************
-const comment1 = new ArticleComment("philip", "Nice article!");
+const comment1 = new ArticleComment("Anthony Price", "Coludn't agree more!");
 
-const comment2 = new ArticleComment("Jezza", "Bad Article");
+const comment2 = new ArticleComment("Bob Ross", "Is 4 really enough?");
 
-const comment3 = new ArticleComment("Jason", "Mid Article");
+const comment3 = new ArticleComment("Katie Price", "Mid Article");
 
-const comment4 = new ArticleComment("leelee", "Just right Article");
-
-const comments = [comment1, comment2, comment3, comment4];
+const comments = [comment1, comment2, comment3];
 
 // End of comments
 
