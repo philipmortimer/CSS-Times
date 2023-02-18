@@ -13,7 +13,7 @@ import { Top } from './Pages/Home/Top.js'
 function App() {
   return (
     <>
-            <Top />
+      <Top />
 
       <Router className="router">
         <Routes>  
