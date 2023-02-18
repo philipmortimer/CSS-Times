@@ -1,6 +1,6 @@
 import { Comment, Header} from 'semantic-ui-react'
 import React from 'react';
-import 'semantic-ui-css/semantic.min.css';
+import './CommentSection.css'
 // Takes article comments and makes them into comments section component
 
 const avatarNames = ['ade', 'chris', 'christian', 'daniel',
@@ -22,12 +22,12 @@ export const CommentSection = (props) => {
             comments.push(
                 <React.Fragment key={i}>
                     <Comment className="comment">
-                        <Comment.Avatar 
+                        <Comment.Avatar className="commentImage"
                         src={'https://react.semantic-ui.com/images/avatar/small/' + 
                             avatarNames[i] + '.jpg'} />
                         <Comment.Content>
-                            <Comment.Author>{commentList[i].userName}</Comment.Author>
-                            <Comment.Text>
+                            <Comment.Author className="commentAuthor">{commentList[i].userName}</Comment.Author>
+                            <Comment.Text className="commentText">
                                 {commentList[i].comment}
                             </Comment.Text>
                         </Comment.Content>
