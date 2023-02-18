@@ -8,7 +8,6 @@ export const Home = (props) => {
     console.log(articles)
     return (
         <div className="homepage">
-        <Top></Top>
         <div className="articles-container">
 
             <Thumbnail className="article-thumbnail" article={articles[0]}></Thumbnail>

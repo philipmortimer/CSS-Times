@@ -1,0 +1,14 @@
+.articleWrapper{
+    width:60vw;
+    margin: auto;
+}
+
+.mainPhoto{
+    display: block;
+    width: 100%;
+}
+
+.articlePhoto{
+    display: block;
+    width: 100%;
+}

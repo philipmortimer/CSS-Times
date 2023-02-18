@@ -2,7 +2,8 @@ import {Paragraph} from '../Paragraph';
 import React from 'react';
 import Moment from 'react-moment';
 import { CommentSection } from './CommentSection/CommentSection';
-
+import './ArticleViewer.css'
+import {Top} from '../../Pages/Home/Top'
 // Component takes an article data object and displays it as a component.
 // props.article should be an article object.
 export const ArticleViewer = (props) => {
