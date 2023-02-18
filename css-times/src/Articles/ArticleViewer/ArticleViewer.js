@@ -1,7 +1,7 @@
 import {Paragraph} from '../Paragraph';
 import React from 'react';
 import Moment from 'react-moment';
-import { ArticleComment } from '../ArticleComment';
+import { CommentSection } from './CommentSection/CommentSection';
 
 // Component takes an article data object and displays it as a component.
 // props.article should be an article object.
@@ -18,6 +18,7 @@ export const ArticleViewer = (props) => {
                 {props.article.publishDate}
             </Moment>
             {processArticleText(props.article.paragraphs)}
+            <CommentSection comments={props.article.comments}/>
         </div>
     );
 
@@ -63,15 +64,5 @@ export const ArticleViewer = (props) => {
 
         }
         return articleContent;
-    }
-
-    /**
-     * Converts the array of comments to a JSX component
-     * @param {[ArticleComment]} commentList 
-     * @returns The comments JSX
-     */
-    function processComments(commentList) {
-        const comments = [];
-        return comments;
     }
 }
