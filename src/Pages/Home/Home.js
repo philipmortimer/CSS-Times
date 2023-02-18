@@ -2,14 +2,26 @@ import { Disclaimer } from "./Disclaimer/Disclaimer";
 import './Home.css'
 import {articles} from "../../Articles/ArticleList"
 import { Thumbnail } from "./Thumbnail";
+import {VisibleAdBar} from '../../Ads/VisibleAdBar'
 import React from 'react';
 
 export const Home = (props) => {
     return (
         <div className="homepage">
-            <div className="articles-container">
-                {getThumbnails(articles)}
+            <div className="homepage-content">
+                <div className="left-ads">
+                    <VisibleAdBar></VisibleAdBar>
+                </div>
+
+                <div className="articles-container">
+                    {getThumbnails(articles)}
+                </div>
+
+                <div className="right-ads">
+                    <VisibleAdBar></VisibleAdBar>
+                </div>
             </div>
+ 
             <div className="disclaimer"><Disclaimer /></div>
         </div>
 

@@ -1,14 +1,28 @@
-*{
+.articles-container *{
+  box-sizing: border-box; 
 }
 
 .articles-container{  
-    width:60vw;
+
+    width:85%;
     margin:auto;
     display: grid;
     transition: 0.22s ease-in;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.homepage-content{
+    display: grid;
+    grid-template-columns:1fr 6fr 1fr;
+}
+
+.left-ads{
+    margin-left: 1em;
+}
+
+.right-ads{
+    margin-right: 1em;
+}
 
 .disclaimer-container{
     max-width: 100vw;
