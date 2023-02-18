@@ -4,14 +4,14 @@ import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
 // Variables used to create object
-const headline = "David Bernhard: Why Bristol needs 4 factor authentication";
+const headline = "David Bernhard: Why Bristol Needs Four-Factor Authentication";
 
 const author = "Ron Hentze";
 
 const publishDate = new Date("February 18 2023 10:30");
 
-const summaryForHomePage =  "With an ever increasing threat to our digital lifes, Bristol University professor David Bernhard " +
-    "talks on the necessitiy of 4-factor authentication.";
+const summaryForHomePage =  "With an ever increasing threat to our digital live's, Bristol University professor David Bernhard " +
+    "talks on the necessitiy of four-factor authentication.";
 
 const mainPhoto = new Picture("/Images/Articles/DB4Fact/4factauth.jpg",
   'David Bernhard giving a talk on the importance of 4-factor authentication');
@@ -29,7 +29,7 @@ const para1 = new Paragraph(
 
 const para2 = new Paragraph(
   <p>
-    In a recent survey of college students, it was found that the majority of respondents loathed having to use two-factor
+    In a recent survey of university students, it was found that the majority of respondents loathed having to use two-factor
      authentication. Complaints ranged from "It's just too much work" to "I don't even understand what's happening." 
      Despite this, Bernhard remains steadfast in his belief that we need even more protection for our online accounts.
   </p>,
@@ -40,7 +40,10 @@ const para3 = new Paragraph(
     When asked to explain his reasoning, Bernhard replied, "Look, I know two-factor is a hassle. But think about it this way 
     – would you rather be slightly inconvenienced now or have your entire life ruined by a hacker later? The answer is obvious."
   </p>,
-  Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
+  new Picture('/Images/Articles/DB4Fact/hacker.jpg', 
+  'A scary hacker stealing all of your details!'),
+  Paragraph.NO_HEADING
+);
 
 const para4 = new Paragraph(
   <p>
@@ -61,7 +64,7 @@ const para5 = new Paragraph(
 
 const para6 = new Paragraph(
   <p>
-    As for the college students surveyed, they remain unimpressed. One student quipped, "So you want me to remember a password,
+    As for the university students surveyed, they remain unimpressed. One student quipped, "So you want me to remember a password,
      carry my phone, scan my fingerprint, and show love for my cat? Sorry, I think I'll just stick to writing my passwords 
      on a sticky note."
   </p>,
