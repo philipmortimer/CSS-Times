@@ -1,0 +1,22 @@
+*{
+}
+
+.articles-container{  
+    width:60vw;
+    margin:auto;
+    display: grid;
+    transition: 0.22s ease-in;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.disclaimer-container{
+    max-width: 100vw;
+}
+
+@media  only screen and (min-width:0px) and (max-width:800px) {
+    .articles-container{
+        grid-template-columns: 1fr 1fr;
+        width:80vw
+    }
+}

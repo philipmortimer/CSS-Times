@@ -1,0 +1,80 @@
+header{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Css-times-logo{
+    /* width: 60%; */
+    height:7vh;
+    transition: 0.2s;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    box-shadow : 2px 2px 1px 0px rgba(86, 86, 86, 0.138);
+    background-color: rgb(255, 255, 255);
+    padding: 0.1em 0 0.8em;
+    margin-bottom: 1.4em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* outline: solid purple 1px; */
+}
+
+ul{
+    width: 65%;
+    margin: auto;
+    height: fit-content;
+    align-items: center;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    outline:red solid 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* outline: solid purple 1px; */
+
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom:2px solid transparent;
+    font-size: 1.6em;
+    transition: 0.1s ease-in-out;
+    /* outline: solid red 1px; */
+
+}
+
+li:hover{
+    border-bottom-color: black;
+    cursor: pointer;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    /* outline: green solid 1px; */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px) 
+{
+    header{
+        font-size: 0.7em;
+    }
+
+    ul{
+        width: 90%;
+    }
+
+    ul{
+        font-size:10px;        
+    }
+}

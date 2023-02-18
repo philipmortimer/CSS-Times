@@ -1,0 +1,24 @@
+.thumbnail{
+    padding: 2%;
+    aspect-ratio:1/1;
+    color:black;
+    outline:blue 0px solid;
+    display: grid;
+    grid-template-rows: 9fr 7fr;
+}
+
+.thumbnail  *{
+    padding:0px;
+}
+
+.thumbnail-image{
+    outline:green 0px solid;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+} 
+
+.thumbnail-text{
+    padding:0%;
+}
+
