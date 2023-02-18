@@ -4,16 +4,16 @@ import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
 // Variables used to create object
-const headline = "BREAKING: Student wins lawsuit agains OpenAI";
+const headline = "BREAKING: Student Wins Lawsuit Against OpenAI's ChatGPT";
 
 const author = "Arnold Becker";
 
 const publishDate = new Date("February 19 2023 11:00");
 
 const summaryForHomePage =  "Bristol, UK: In a shocking turn of events, a computer science student from the University" +
-    "of Bristol has won a major lawsuit against OpenAI, the creators of the AI language model ChatGPT."
+    " of Bristol has won a major lawsuit against OpenAI, the creators of the AI language model ChatGPT."
 
-const mainPhoto = new Picture('Images/Articles/scotlandYardLawsuit/scotlandYardLawsuit.jpg',
+const mainPhoto = new Picture('/Images/Articles/scotlandYardLawsuit/scotlandYardLawsuit.jpg',
   'Bristol University student versus OpenAi');
 
 // Paragraphs *********************************************************************************
@@ -78,15 +78,13 @@ const paragraphs = [para1, para2, para3, para4, para5, para6, para7];
 // End of paragraphs
 
 // Start of comments ***********************************
-const comment1 = new ArticleComment("philip", "Nice article!");
+const comment1 = new ArticleComment("Adem Blackwell", "But he stole my AI to begin with!");
 
-const comment2 = new ArticleComment("Jezza", "Bad Article");
+const comment2 = new ArticleComment("Rowan Pacheco", "nice to see the little guys winning one.");
 
-const comment3 = new ArticleComment("Jason", "Mid Article");
+const comment3 = new ArticleComment("Salman Khan", "Mid.");
 
-const comment4 = new ArticleComment("leelee", "Just right Article");
-
-const comments = [];//comment1, comment2, comment3, comment4];
+const comments = [comment1, comment2, comment3];
 
 // End of comments
 

@@ -11,7 +11,7 @@ const author = "Joe Barlow";
 const publishDate = new Date("February 18 2023 18:40");
 
 const summaryForHomePage =  "Joeseph Hallett caught using Windows 11 in a savage assult on open-source values." +
-    "Friday after before last, multiple reports were made by students of this upsetting incident."
+    " Friday after before last, multiple reports were made by students of this upsetting incident."
 
 const mainPhoto = new Picture('/Images/Articles/joeCaught/josephHalletCaughtWindows.jpg',
   'A sorry looking Joeseph Hallett after being caught using Widnows 11.');
@@ -35,7 +35,7 @@ const para2 = new Paragraph(
 
 const para3 = new Paragraph(
   <p>
-    One student, who wished to remain anonymous, stated: "We were shocked. We always thought that Joseph lived 
+    Jason Price, who wished to remain anonymous, stated: "We were shocked. We always thought that Joseph lived 
     and breathed Linux. He's always preaching about the benefits of open-source software, and here he was using
     a Windows machine. It's like finding out Santa Claus isn't real."
   </p>,
