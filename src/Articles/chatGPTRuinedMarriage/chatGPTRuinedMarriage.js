@@ -13,7 +13,7 @@ const publishDate = new Date("February 29 2023 12:34");
 const summaryForHomePage =  "Marriage on the Rocks: ChatGPT Blamed for Ruining Couple's Relationship. " +
 "In a shocking turn of events, a couple from California has filed for divorce, blaming their split on none other than ChatGPT.";
 
-const mainPhoto = new Picture('/CSS-Times/Images/Articles/chatGPTRuinedMarriage/chatgtpRuinedMarriage.jpg',
+const mainPhoto = new Picture('/Images/Articles/chatGPTRuinedMarriage/chatgtpRuinedMarriage.jpg',
   'A coupled wedding photo ripped in half, with chatGPT in the middle, looking all proud.');
 
 // Paragraphs *********************************************************************************
