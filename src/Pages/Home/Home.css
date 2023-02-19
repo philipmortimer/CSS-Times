@@ -36,11 +36,29 @@
         grid-template-columns: 1fr 1fr;
         width:80vw
     }
+    .homepage-content{
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+    }
+    .left-ads{
+        display: none;
+        margin-left: 1em;
+        margin-top: 0;
+    }
 }
 
 @media  only screen and (min-width:0px) and (max-width:550px) {
     .articles-container{
         grid-template-columns: 1fr;
         width:80vw
+    }
+    .homepage-content{
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+    }
+    .left-ads{
+        display: none;
+        margin-left: 1em;
+        margin-top: 0;
     }
 }

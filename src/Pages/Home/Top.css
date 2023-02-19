@@ -6,6 +6,7 @@ header{
 .Css-times-logo{
     /* width: 60%; */
     height:7vh;
+    max-width: 90%;
     transition: 0.2s;
 }
 
