@@ -13,7 +13,7 @@ const author = "Joe Barlow";
 
 const publishDate = new Date("February 18 2023 18:40");
 
-const summaryForHomePage =  "Joeseph Hallett caught using Windows 11 in a savage assult on open-source values." +
+const summaryForHomePage =  "Joeseph Hallett caught using Windows 11 in a savage assault on open-source values." +
     " Friday after before last, multiple reports were made by students of this upsetting incident."
 
 const mainPhoto = new Picture(mainPhotoPath,
@@ -78,7 +78,7 @@ const para7 = new Paragraph(
 
   const para8 = new Paragraph(
     <p>
-      Stay tuned for updates on this developing story.
+      Stay tuned for updates on this developing story...
     </p>,
     Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
 

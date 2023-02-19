@@ -2,9 +2,10 @@
     padding: 2%;
     aspect-ratio:1/1;
     color:black;
-    outline:blue 0px solid;
+    outline:rgba(0, 0, 0, 0) 1px solid;
     display: grid;
     grid-template-rows: 9fr 7fr;
+
 }
 
 .articleLink {
@@ -17,7 +18,8 @@
 }
 
 .thumbnail:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    outline:1px black solid;
 }
 
 .thumbnail-image{

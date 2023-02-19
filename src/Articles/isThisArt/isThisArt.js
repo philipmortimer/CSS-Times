@@ -7,14 +7,14 @@ import {Article} from '../Article'
 import mainPhotoPath from "./Images/isThisArt.jpg";
 
 // Variables used to create object
-const headline = "Is This Even Art? ArtHack Entry Sparks Debate Among Competitors";
+const headline = "Is This Even Art? Hilarious ArtHack Website Entry Sparks Philosophical Debate Among Competitors";
 
 const author = "Wilfred Leonard";
 
 const publishDate = new Date("February 19 2023 09:00");
 
-const summaryForHomePage =  "In the 2023 ArtHack competition fights broke out over a controversial student paper entry." +
-    " Many competitors argured if this were art, but the judges disagreed."
+const summaryForHomePage =  "In the 2023 ArtHack competition fights broke out over a controversial student newspaper entry." +
+    " Many competitors argured this was artistic, but the judges disagreed."
 
 const mainPhoto = new Picture(mainPhotoPath,
     'What even is art?.');
@@ -25,14 +25,14 @@ const para1 = new Paragraph(
   <p> 
     <strong>
     In the 2023 ArtHack competition, a student newspaper, The CSS Times, has sparked a heated debate among the competitors, with some 
-    arguing that the entry, is not art.
+    arguing that the entry is not art.
     </strong>
   </p>,
   Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
 
 const para2 = new Paragraph(
   <p>
-    The entry in question is a satirical take on society, hitting relevent topics such as biased media and AI. The 
+    The entry in question is a satirical take on society, hitting relevent topics such as biased mainstream media and AI. The 
     student team responsible for the piece insists that it is a work of art, but some of the other competitors 
     are not convinced.
   </p>,
@@ -40,7 +40,7 @@ const para2 = new Paragraph(
 
 const para3 = new Paragraph(
   <p>
-    "I mean, come on, this is just a bunch of gibberish on a computer," said one competitor, who wished to
+    "I mean, come on, this is just a bunch of gibberish on a computer," said one competitor Andy, who wished to
      remain anonymous. "Where's the creativity in that?"
   </p>,
   Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
@@ -109,8 +109,10 @@ const paragraphs = [para1, para2, para3, para4, para5, para6, para7, para8, para
 // Start of comments ***********************************
 
 const comment1 = new ArticleComment("REDACTED", "THIS IS RIGGED");
+const comment2 = new ArticleComment("Justin", "If Banksy can spill some ink on a wall and enjoy fame and fortune, these guys deserve respect too!");
 
-const comments = [comment1];
+
+const comments = [comment1, comment2];
 
 // End of comments
 
