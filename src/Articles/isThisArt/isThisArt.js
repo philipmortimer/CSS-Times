@@ -3,6 +3,9 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Photo imports
+import mainPhotoPath from "./Images/isThisArt.jpg";
+
 // Variables used to create object
 const headline = "Is This Even Art? ArtHack Entry Sparks Debate Among Competitors";
 
@@ -13,8 +16,9 @@ const publishDate = new Date("February 19 2023 09:00");
 const summaryForHomePage =  "In the 2023 ArtHack competition fights broke out over a controversial student paper entry." +
     " Many competitors argured if this were art, but the judges disagreed."
 
-const mainPhoto = new Picture("/Images/Articles/weatherReport/slightlySunny.jpg",
-  'WARNING: It is going to be slightly sunny today.');
+const mainPhoto = new Picture(mainPhotoPath,
+    'What even is art?.');
+
 
 // Paragraphs *********************************************************************************
 const para1 = new Paragraph(
