@@ -11,9 +11,14 @@ import { PhotoStrike } from "./photoStrike/PhotoStrike";
 
 
 // Assigns each article an ID
-const articlesWithouId = [davidArticleFINAL, weatherReport, scotlandYard, 
-                          chatGPTRuinedMarriage, joeCaught, mvbDoor, 
-                          isThisArt, PhotoStrike];
+// const articlesWithouId = [davidArticleFINAL, weatherReport, scotlandYard, 
+//                           chatGPTRuinedMarriage, joeCaught, mvbDoor, 
+//                           isThisArt, PhotoStrike];
+
+const articlesWithouId = [mvbDoor, isThisArt, weatherReport, 
+                            davidArticleFINAL, PhotoStrike, joeCaught, 
+                            scotlandYard, chatGPTRuinedMarriage];
+
 for (let i = 0; i < articlesWithouId.length; i++) {
     articlesWithouId[i].setId(i);
 }

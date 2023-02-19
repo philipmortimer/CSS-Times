@@ -7,13 +7,13 @@ import {Article} from '../Article'
 import mainPhotoPath from "./Images/scotlandYardLawsuit.jpg";
 
 // Variables used to create object
-const headline = "BREAKING: Student Wins Lawsuit Against OpenAI's ChatGPT";
+const headline = "Bristol Student Wins Lawsuit Against OpenAI's ChatGPT";
 
 const author = "Arnold Becker";
 
 const publishDate = new Date("February 19 2023 11:00");
 
-const summaryForHomePage =  "Bristol, UK: It's been uncovered that OpenAI plagiarised a first year Bristol student's Scotland Yard AI coursework to build chat GPT model."
+const summaryForHomePage =  "It's been uncovered that OpenAI plagiarised a first year Bristol student's Scotland Yard AI coursework to build their chat GPT model."
 
 
 const mainPhoto = new Picture(mainPhotoPath,
