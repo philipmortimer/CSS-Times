@@ -1,0 +1,27 @@
+.sprayCanvas{
+    outline: 2px solid black;
+    background-color: transparent;
+    z-index:2;
+}
+
+.wall-image{
+    position: absolute;
+    display: block;
+    z-index: -1;
+}
+
+.canvas-container{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    box-shadow: 0px 0px 3px 2px rgb(126, 126, 126);
+}
+
+.sprayGameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
