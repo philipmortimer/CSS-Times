@@ -3,6 +3,8 @@
 
 }
 
-.VisibleAdBarWrapper{
-    padding:3%;
+.visibleAdWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
