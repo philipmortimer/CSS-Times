@@ -12,6 +12,9 @@ import { ArticleViewer } from './Articles/ArticleViewer/ArticleViewer';
 import { Top } from './Pages/Home/Top.js'
 import { SprayPaint } from './Games/SprayPaint.js'
 
+import { CrosswordGame } from './Games/Crossword/Crossword';
+
+
 function App() {
   return (
     <>
@@ -19,6 +22,7 @@ function App() {
       <HashRouter>
         <Routes>  
           <Route path="/" element={<Home />} />
+          <Route path="/games/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
           <Route path="/Games/SprayPaint" element={<SprayPaint />} />
         </Routes>
