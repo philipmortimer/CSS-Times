@@ -24,9 +24,10 @@ export const CommentSection = (props) => {
      */
     function processComments(commentList) {
         const comments = [];
-        for (let i = 0; i < commentList.length; i++) {
+        for (let j = 0; j < commentList.length; j++) {
+            const i = j % commentList.length;
             // Shuffles comment icons everytime they are reused
-            if (i % avatarNames.length === 0) {
+            if (i === 0) {
                 avatarNames.sort((a, b) => 0.5 - Math.random());
             }
             comments.push(

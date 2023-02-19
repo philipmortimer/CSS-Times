@@ -7,13 +7,11 @@ import { Disclaimer } from '../../Pages/Home/Disclaimer/Disclaimer';
 // Component takes an article data object and displays it as a component.
 // props.article should be an article object.
 export const ArticleViewer = (props) => {
-    const [_, setMainImageLoaded] = useState(false);
-    const [imagesLoaded, setImagesLoaded] = useState(0);
     return (
         <div className="articleWrapper">
             <div className="disclaimer"><Disclaimer /></div>
             <h1 className="headline">{props.article.headline}</h1>
-            <img onLoad={() => {setMainImageLoaded(true)}} src={props.article.mainPhoto.filePath} 
+            <img src={props.article.mainPhoto.filePath} 
                 alt={props.article.mainPhoto.caption}
                 className="mainPhoto"/>
             <h4 className="author">By {props.article.author}</h4>
@@ -22,7 +20,7 @@ export const ArticleViewer = (props) => {
                 {props.article.publishDate}
             </Moment>
             {processArticleText(props.article.paragraphs)}
-            <CommentSection comments={props.article.comments}/>
+            <CommentSection comments={props.article.comments} id ={props.article.id}/>
         </div>
     );
 
@@ -47,8 +45,7 @@ export const ArticleViewer = (props) => {
             if (paraList[i].photo !== Paragraph.NO_PHOTO) {
                 para.push(        
                     <React.Fragment key={1}>
-                        <img onLoad={() => setImagesLoaded(imagesLoaded + 1)}
-                        src={paraList[i].photo.filePath} alt={paraList[i].photo.caption}
+                        <img src={paraList[i].photo.filePath} alt={paraList[i].photo.caption}
                         className="articlePhoto"/>
                     </React.Fragment>
                     );

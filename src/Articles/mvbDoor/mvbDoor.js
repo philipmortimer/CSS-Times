@@ -3,6 +3,9 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Photo imports
+import headlinePhoto from './Images/mvbDoor.jpg'
+
 // Variables used to create object
 const headline = "CS Students Plan Strike Over MVB 2.11 Door Sometimes Not Working";
 
@@ -13,7 +16,7 @@ const publishDate = new Date("February 20 2023 04:43");
 const summaryForHomePage =  "Tensions are high amongst CS students. Strikes are planned again due to in-action from the university" +
     " who are explicitly slow on fixing the door."
 
-const mainPhoto = new Picture("/Images/Articles/mvbDoor/mvbDoor.jpg",
+const mainPhoto = new Picture(headlinePhoto,
   'MVB 2.11 Door, broken, as ever, alongside striking people.');
 
 // Paragraphs *********************************************************************************
