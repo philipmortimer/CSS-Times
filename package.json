@@ -4,6 +4,7 @@
   "homepage": "http://philipmortimer.github.io",
   "private": true,
   "dependencies": {
+    "@anatoliygatt/dark-mode-toggle": "^1.0.1",
     "@guardian/react-crossword": "^0.2.3",
     "@jaredreisinger/react-crossword": "^5.2.0",
     "@testing-library/jest-dom": "^5.16.5",
