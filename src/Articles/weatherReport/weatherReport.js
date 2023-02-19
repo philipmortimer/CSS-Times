@@ -3,6 +3,9 @@ import {Paragraph} from '../Paragraph';
 import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
+// Main photos
+import headlinePhoto from './Images/slightlySunny.jpg';
+
 // Variables used to create object
 const headline = "WEATHER WARNING: Stay Inside! It's Slightly Sunny Today";
 
@@ -13,7 +16,7 @@ const publishDate = new Date("February 19 2023 09:00");
 const summaryForHomePage =  "Attention all Computer Science Students, please be careful." +
     " There is a chance of of sun today, please read this article to find out how to stay protected."
 
-const mainPhoto = new Picture("/Images/Articles/weatherReport/slightlySunny.jpg",
+const mainPhoto = new Picture(headlinePhoto,
   'WARNING: It is going to be slightly sunny today.');
 
 // Paragraphs *********************************************************************************
