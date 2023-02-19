@@ -10,10 +10,8 @@ export const Top = (props) => {
             <li><a href="/">Home</a></li>
             <li><a href="https://jeremycolfer27.github.io/css-website/">Sport</a></li>
             {/* <li><h1>CSS TIMES</h1></li> */}
-
-
-            <li><a href="/">Lifestyle</a></li>
-            <li><a href="/#/games/crossword">Games</a></li>
+            <li><a href="/#/games/crossword">Crossword</a></li>
+            <li><a href="#/Games/SprayPaint">Art</a></li>
         </ul>
         </header>
 
