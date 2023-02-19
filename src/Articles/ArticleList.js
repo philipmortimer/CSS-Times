@@ -5,10 +5,11 @@ import { chatGPTRuinedMarriage } from "./chatGPTRuinedMarriage/chatGPTRuinedMarr
 import { joeCaught } from "./joeCaught/joeCaught";
 import { weatherReport } from "./weatherReport/weatherReport";
 import { mvbDoor } from "./mvbDoor/mvbDoor";
+import { isThisArt } from "./isThisArt/isThisArt";
 
 
 // Assigns each article an ID
-const articlesWithouId = [davidArticleFINAL, weatherReport, scotlandYard, chatGPTRuinedMarriage, joeCaught, mvbDoor];
+const articlesWithouId = [davidArticleFINAL, weatherReport, scotlandYard, chatGPTRuinedMarriage, joeCaught, mvbDoor, isThisArt];
 for (let i = 0; i < articlesWithouId.length; i++) {
     articlesWithouId[i].setId(i);
 }
