@@ -12,6 +12,7 @@ import { Top } from './Pages/Home/Top.js'
 import { SprayPaint } from './Games/SprayPaint.js'
 
 import { CrosswordGame } from './Games/Crossword/Crossword';
+import Quiz from './Quiz/Quiz';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/games/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
           <Route path="/Games/SprayPaint" element={<SprayPaint />} />
+          <Route path="/Quiz" element={<Quiz />} />
         </Routes>
       </HashRouter>
     </>

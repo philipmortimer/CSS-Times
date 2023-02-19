@@ -12,6 +12,7 @@ export const Top = (props) => {
             {/* <li><h1>CSS TIMES</h1></li> */}
             <li><a href="/#/games/crossword">Crossword</a></li>
             <li><a href="#/Games/SprayPaint">Art</a></li>
+            <li><a href="#/Quiz">Quiz</a></li>
         </ul>
         </header>
 
