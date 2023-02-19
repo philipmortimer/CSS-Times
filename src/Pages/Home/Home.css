@@ -9,6 +9,7 @@
     display: grid;
     transition: 0.22s ease-in;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 15%;
 }
 
 .homepage-content{
@@ -18,10 +19,12 @@
 
 .left-ads{
     margin-left: 1em;
+    margin-top: 0;
 }
 
 .right-ads{
     margin-right: 1em;
+    margin-top: 0;
 }
 
 .disclaimer-container{
