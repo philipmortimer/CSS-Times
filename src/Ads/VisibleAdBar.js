@@ -14,6 +14,8 @@ export const VisibleAdBar = (props) =>{
             <VisibleAd ad = {ads[0]}></VisibleAd>
             <VisibleAd ad = {ads[1]}></VisibleAd>
             <VisibleAd ad = {ads[2]}></VisibleAd>
+            <VisibleAd ad = {ads[3]}></VisibleAd>
+
 
 
 

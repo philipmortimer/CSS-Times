@@ -4,20 +4,19 @@ import {ArticleComment} from '../ArticleComment'
 import {Article} from '../Article'
 
 // Photo imports
-import headlinePhoto from './Images/mvbDoor.jpg'
+import headlinePhoto from './Images/photographerStrike16x9.jpg'
 
 // Variables used to create object
-const headline = "CS Students Plan Strike Over MVB 2.11 Door Sometimes Not Working";
+const headline = "CSS Times Photographer Has Started Striking";
 
 const author = "Byron Briggs";
 
 const publishDate = new Date("February 20 2023 04:43");
 
-const summaryForHomePage =  "Tensions are high amongst CS students. Strikes are planned again due to inaction from the university" +
-    " who are shamelessly slow on fixing the door."
+const summaryForHomePage =  "Please come back. We'll give you a raise. We may even give you minimum wage."
 
 const mainPhoto = new Picture(headlinePhoto,
-  'MVB 2.11 Door, broken, as ever, alongside striking people.');
+  'A paper illustration of the photographer on strike');
 
 // Paragraphs *********************************************************************************
 const para1 = new Paragraph(
@@ -95,6 +94,6 @@ const comments = [comment1, comment2, comment3];
 /**
  * The newspaper article for david.
  */
-export const mvbDoor = new Article(
+export const PhotoStrike = new Article(
   headline, author, publishDate, summaryForHomePage, mainPhoto, paragraphs, comments, Article.NO_ID__YET
 );

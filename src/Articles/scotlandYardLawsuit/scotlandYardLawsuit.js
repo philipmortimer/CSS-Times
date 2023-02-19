@@ -13,8 +13,8 @@ const author = "Arnold Becker";
 
 const publishDate = new Date("February 19 2023 11:00");
 
-const summaryForHomePage =  "Bristol, UK: In a shocking turn of events, a computer science student from the University" +
-    " of Bristol has won a major lawsuit against OpenAI, the creators of the AI language model ChatGPT."
+const summaryForHomePage =  "Bristol, UK: It's been uncovered that OpenAI plagiarised a first year Bristol student's Scotland Yard AI coursework to build chat GPT model."
+
 
 const mainPhoto = new Picture(mainPhotoPath,
   'Bristol University student versus OpenAi');

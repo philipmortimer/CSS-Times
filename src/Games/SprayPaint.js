@@ -36,7 +36,7 @@ export const SprayPaint = (props) => {
         <div className="sprayGameContainer">
 
 
-            <h1>{"Please direct all anger to this virtual wall"}</h1>
+            <h1>{"Please direct all anger to this virtual MVB wall"}</h1>
             <p>{"it's not cool to vandalise physical property"}</p>
 
 
