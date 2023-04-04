@@ -5,6 +5,7 @@ import {Article} from '../Article'
 
 // Photo imports
 import mainPhotoPath from "./Images/josephHalletCaughtWindows.jpg";
+import correctionPhotoPath from "./Images/CorrectionEmailLeakedScaledLeft.png";
 
 // Variables used to create object
 const headline = "BREAKING: University of Bristol Lecturer Caught Red-Handed Using a Windows Machine!";
@@ -18,6 +19,9 @@ const summaryForHomePage =  "Joeseph Hallett caught using Windows 11 in a savage
 
 const mainPhoto = new Picture(mainPhotoPath,
   'A sorry looking Joeseph Hallett after being caught using Widnows 11.');
+
+const correctionPhoto = new Picture(correctionPhotoPath, 
+  'The alleged leaked contents of Joseph Hallett\'s email to the CSS Times.');
 
 // Paragraphs *********************************************************************************
 const para1 = new Paragraph(
@@ -76,13 +80,24 @@ const para7 = new Paragraph(
   </p>,
   Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
 
-  const para8 = new Paragraph(
-    <p>
-      Stay tuned for updates on this developing story...
-    </p>,
-    Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
+const para8 = new Paragraph(
+  <p>
+    Stay tuned for updates on this developing story...
+  </p>,
+  Paragraph.NO_PHOTO, Paragraph.NO_HEADING);
 
-const paragraphs = [para1, para2, para3, para4, para5, para6, para7, para8];
+const para9 = new Paragraph(
+  <p>
+    Mr. Hallett has reached out to editorial team of the CSS Times following this publication of this article. 
+    He highlighted that his name had been incorrectly spelt and requested that we clarify that his open-source  
+    operating system of choice is OpenBSD. We would like to apologies to Mr. Hallett and reassure 
+    him that we have terminated the individual responsible for this egregious mistake. At the CSS Times, we will 
+    not tolerate anything less than journalistic excellence and have thus replaced this individual with a 
+    more up-to-date generative AI model.
+  </p>,
+  correctionPhoto, "Correction");
+
+const paragraphs = [para1, para2, para3, para4, para5, para6, para7, para8, para9];
 
 // End of paragraphs
 
