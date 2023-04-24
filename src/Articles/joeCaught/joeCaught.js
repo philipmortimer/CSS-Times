@@ -97,7 +97,16 @@ const para9 = new Paragraph(
   </p>,
   correctionPhoto, "Correction");
 
-const paragraphs = [para1, para2, para3, para4, para5, para6, para7, para8, para9];
+  const para10 = new Paragraph(
+    <p>
+      Joseph Hallett has asked us to highlight that he has a doctorate. We would like to apologise 
+      for referring to him as "Mr. Hallett". He should instead be referred to as "Dr. Hallett". 
+      Dr. Hallett has not commented on rumours that he has agreed to be the 16th doctor in the 
+      illustrous BBC drama series 'Doctor Who'. Either way, he'll always be The Doctor to us. 
+    </p>,
+    Paragraph.NO_PHOTO, "Correction Correction");
+
+const paragraphs = [para1, para2, para3, para4, para5, para6, para7, para8, para9, para10];
 
 // End of paragraphs
 
