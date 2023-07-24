@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Top />
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>  
           <Route path="/" element={<Home />} />
           <Route path="/games/crossword" element={<CrosswordGame />} />
