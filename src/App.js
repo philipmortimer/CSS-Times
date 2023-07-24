@@ -19,9 +19,9 @@ function App() {
   return (
     <>
       <Top />
-      <HashRouter basename='/'>
+      <HashRouter>
         <Routes>  
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Games/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
           <Route path="/Games/SprayPaint" element={<SprayPaint />} />
