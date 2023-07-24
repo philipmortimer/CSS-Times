@@ -1,4 +1,4 @@
-This repository contains the source code for the winning project of the 2023 Bristol Art Hackathon: The CSS Times. The CSS Times is a satirical newspaper that publishes spoof stories centered around the University of Bristol and its Computer Science department. This website was awarded the top prize of £100 for the 2023 CSS Bristol Art Hackatahon. I worked together with three other students over the course of a weekend to produce this submission.
+This repository contains the source code of the winning entry from the 2023 Bristol Art Hackathon: The CSS Times. The CSS Times is a satirical newspaper that publishes spoof stories centered around the University of Bristol and its Computer Science department. This website was awarded the top prize of £100 for the 2023 CSS Bristol Art Hackathon. I worked together with three other students over the course of a weekend to produce this submission.
 
 ![image](https://github.com/philipmortimer/CSS-Times/assets/64362945/c97d5b47-61eb-4da3-ab0e-ec39ef47c743)
 
