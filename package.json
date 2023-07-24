@@ -1,7 +1,7 @@
 {
   "name": "css-times",
   "version": "0.1.0",
-  "homepage": "https://philipmortimer.github.io/CSS-Times",
+  "homepage": "https://philipmortimer.github.io",
   "private": true,
   "dependencies": {
     "@anatoliygatt/dark-mode-toggle": "^1.0.1",
