@@ -4,4 +4,4 @@ This repository contains the source code of the winning entry from the 2023 Bris
 
 This repository contains the source code for the website. Simply run "npm install" then "npm start" to run the website locally.
 
-At the time of writing (24/07/2023), the website can be accessed at "www.csstimes.co.uk" or "https://css-times.github.io". This domain will expire at some point in the future. The source code is also hosted at: "https://github.com/CSS-Times/css-times.github.io".
+At the time of writing (24/07/2023), the website can be accessed at "https://www.csstimes.co.uk" or "https://css-times.github.io". This domain will expire at some point in the future. The source code is also hosted at: "https://github.com/CSS-Times/css-times.github.io".
