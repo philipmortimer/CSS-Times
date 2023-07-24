@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Routes,
   Route,
-  HashRouter
+  HashRouter,
 } from "react-router-dom";
 import {Home} from "./Pages/Home/Home.js";
 import {articles} from './Articles/ArticleList';
@@ -22,7 +22,7 @@ function App() {
       <HashRouter>
         <Routes>  
           <Route path="/" element={<Home />} />
-          <Route path="/Games/crossword" element={<CrosswordGame />} />
+          <Route path="/games/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
           <Route path="/Games/SprayPaint" element={<SprayPaint />} />
           <Route path="/Quiz" element={<Quiz />} />
