@@ -24,8 +24,8 @@ function App() {
           <Route path="/CSS-Times/" element={<Home />} />
           <Route path="/CSS-Times/games/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
-          <Route path="/CSS-Times//Games/SprayPaint" element={<SprayPaint />} />
-          <Route path="/CSS-Times//Quiz" element={<Quiz />} />
+          <Route path="/CSS-Times/Games/SprayPaint" element={<SprayPaint />} />
+          <Route path="/CSS-Times/Quiz" element={<Quiz />} />
         </Routes>
       </HashRouter>
     </>
