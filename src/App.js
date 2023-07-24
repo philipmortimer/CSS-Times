@@ -19,13 +19,13 @@ function App() {
   return (
     <>
       <Top />
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Routes>  
-          <Route path="/CSS-Times/" element={<Home />} />
-          <Route path="/CSS-Times/games/crossword" element={<CrosswordGame />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/crossword" element={<CrosswordGame />} />
           {getArticlePaths(articles)}
-          <Route path="/CSS-Times/Games/SprayPaint" element={<SprayPaint />} />
-          <Route path="/CSS-Times/Quiz" element={<Quiz />} />
+          <Route path="/Games/SprayPaint" element={<SprayPaint />} />
+          <Route path="/Quiz" element={<Quiz />} />
         </Routes>
       </HashRouter>
     </>
