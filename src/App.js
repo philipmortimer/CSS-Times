@@ -3,6 +3,7 @@ import React from 'react';
 import {
   Routes,
   Route,
+  HashRouter
 } from "react-router-dom";
 import {Home} from "./Pages/Home/Home.js";
 import {articles} from './Articles/ArticleList';
@@ -18,13 +19,15 @@ function App() {
   return (
     <>
       <Top />
-      <Routes>  
-        <Route path="/" element={<Home />} />
-        <Route path="/Games/crossword" element={<CrosswordGame />} />
-        {getArticlePaths(articles)}
-        <Route path="/Games/SprayPaint" element={<SprayPaint />} />
-        <Route path="/Quiz" element={<Quiz />} />
-      </Routes>
+      <HashRouter basename='/'>
+        <Routes>  
+          <Route exact path="/" element={<Home />} />
+          <Route path="/Games/crossword" element={<CrosswordGame />} />
+          {getArticlePaths(articles)}
+          <Route path="/Games/SprayPaint" element={<SprayPaint />} />
+          <Route path="/Quiz" element={<Quiz />} />
+        </Routes>
+      </HashRouter>
     </>
   );
 
